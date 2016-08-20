@@ -15,13 +15,13 @@ void draw()
   strokeWeight(random(0, 10));
   stroke(random(0, 255), random(0, 255), random(0, 255));
   line(random(0, 500), random(0, 500), random(0, 500), random(0, 500));
-
-   // fill(random(255), random(255), random(255));
+  // 
+  // fill(random(255), random(255), random(255));
   fill(random(100, 360), random(100, 360), random(100, 360));
   circleX = circleX +1;
   circleY = circleY +1;
   ellipse(random(0, 500), random(0, 500), circleX, circleY);
-/*  if (circleX>=100);
+  if (circleX>=100);
   {
     background(255, 255, 255);
     ellipse(150,150,200,200);
@@ -32,5 +32,5 @@ void draw()
       background(255, 255, 255);
     ellipse(150,150,200,200); 
   }
- */
+ 
 }
